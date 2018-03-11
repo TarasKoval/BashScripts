@@ -1,6 +1,6 @@
-#Set of educational purpose scripts#
+# Set of educational purpose scripts #
 
-##ACRONYM##
+## ACRONYM ##
 
 Convert a phrase to its acronym.
 
