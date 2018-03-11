@@ -24,3 +24,6 @@ LEAP
 
 LUHN
 #Given a number determine whether or not it is valid per the Luhn formula.
+
+NUCLEOTIDE COUNT
+#Given a single stranded DNA string, compute how many times each nucleotide occurs in the string.
