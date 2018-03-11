@@ -1,5 +1,7 @@
 #!/bin/bash
 #Given a single stranded DNA string, compute how many times each nucleotide occurs in the string.
+set -o errexit
+set -o nounset
 
 if [[ $# -ne 1 ]]; then
 	echo "usage: $0 <\"parametres\">"

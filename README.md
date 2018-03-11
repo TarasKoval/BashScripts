@@ -1,3 +1,5 @@
+#My set of educational purpose scripts:
+
 ACRONYM
 #Convert a phrase to its acronym.
 #example: "First In, First Out" => "FIFO"

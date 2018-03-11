@@ -1,5 +1,7 @@
 #!/bin/bash
 #Given a year, report if it is a leap year.
+set -o errexit
+set -o nounset
 
 if [[ $# -ne 1 ]]; then
 	echo 'Usage: leap.sh <year>'

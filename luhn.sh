@@ -1,5 +1,7 @@
 #!/bin/bash
 #Given a number determine whether or not it is valid per the Luhn formula.
+set -o errexit
+set -o nounset
 
 if [[ $# -ne 1 ]]; then
 	echo false
