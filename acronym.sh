@@ -1,6 +1,8 @@
 #!/bin/bash
 #Convert a phrase to its acronym.
 #example: "First In, First Out" => "FIFO"
+set -o errexit
+set -o nounset
 
 if [ $# -ne 1 ]
 	then

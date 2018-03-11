@@ -1,6 +1,9 @@
 #!/bin/bash
 #Given a word and a list of possible anagrams, select the correct sublist.
 #example: "master" "stream pigeon maters" => "stream maters"
+set -o errexit
+set -o nounset
+
 if [ $# -ne 2 ]
 	then
 	echo "Usage: $0 <word> <\"parametres\">"

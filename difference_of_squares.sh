@@ -2,6 +2,8 @@
 #Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
 #key "-s" return sum of squares
 #key "-S" return square of sum
+set -o errexit
+set -o nounset
 
 if [ $# -eq 0 ]
 then

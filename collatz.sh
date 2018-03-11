@@ -1,6 +1,8 @@
 #!/bin/bash
 #If n is even, divide n by 2. If not, multiply n by 3 and add 1. Repeat the process until n = 1.
 #Return the number of steps required to reach 1.
+set -o errexit
+set -o nounset
 
 if [ $# -ne 1 ]
 then
