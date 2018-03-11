@@ -18,3 +18,9 @@ DIFFERENCE OF SQUARES
 #Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
 #key "-s" return sum of squares
 #key "-S" return square of sum
+
+LEAP
+#Given a year, report if it is a leap year.
+
+LUHN
+#Given a number determine whether or not it is valid per the Luhn formula.
