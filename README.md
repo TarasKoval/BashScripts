@@ -1,4 +1,8 @@
-# Set of educational purpose scripts #
+# Bash Scripts #
+ 
+Set of educational purpose scripts
+
+100% test coverage using Bats: Bash Automated Testing System
 
 ## ACRONYM ##
 
